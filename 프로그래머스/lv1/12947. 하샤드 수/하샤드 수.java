@@ -11,12 +11,6 @@ class Solution {
             n = n/10;
         }
         
-        if(x % cnt == 0){
-            answer = true;
-        } else{
-            answer = false;
-        }
-        
-        return answer;
+        return answer = (x%cnt == 0)? true: false;
     }
 }
